@@ -28,9 +28,9 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-4">
               <Image className="w-32 h-auto" src={playStore} alt="playImg" />
-              <Button variant="outline" href="https://youtu.be/vviFia-Stqk">
+              <Button variant="outline" href="#">
                 <BsPlayCircle className="text-xl" />
-                <span className="ml-2.5">Watch the video</span>
+                <span className="ml-2.5">Watch a demo</span>
               </Button>
             </div>
           </div>

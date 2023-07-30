@@ -28,7 +28,7 @@ const Account = () => {
           {accountData.map((item) => (
             <li
               key={item.name}
-              className="rounded-2xl border border-gray-200 hover:border-gray-300 p-8 group hover:bg-gray-100 duration-300 cursor-pointer"
+              className="rounded-2xl border border-gray-200 hover:border-blue-300 p-8 group hover:bg-gray-100 duration-300 cursor-pointer"
             >
               <item.icon className="h-8 w-8" />
               <h3 className="mt-6 font-semibold text-gray-900 group-hover:text-black duration-300">
